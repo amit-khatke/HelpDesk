@@ -9,7 +9,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
   standalone: true,
   imports: [CommonModule,LoginPageComponent],
   template: `
-    
+    <app-login-page></app-login-page>
   `,
 })
 export class App {
